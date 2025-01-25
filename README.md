@@ -44,4 +44,8 @@ Selected_Folder/
    If there are any issues after installation, add PyInstaller to the environment path.
 
 2. Running PyInstaller:
-   
+   Create a folder and place the photo_organizer.py file inside it. Open the folder in VSCode and run the command:
+   ```
+   pyinstaller --onefile --windowed photo_organizer.py
+   ```
+   After running the command, you will see two new folders and a new file. Go to the dist folder, and you will find the photo_organizer.exe app."
