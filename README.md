@@ -32,3 +32,16 @@ Selected_Folder/
 │   │   │   ├── image1.png
 ```
 
+# About photo_organizer.exe
+* photo_organizer.exe is developed using pyinstaller.
+* PyInstaller is a tool that can be used to convert Python scripts into standalone executable applications. It packages Python code along with all of its dependencies into a single executable file for various platforms like Windows, macOS, and Linux. To make a Windows app you run PyInstaller on Windows, and to make a Linux app you run it on Linux, etc.
+
+## How to develop 
+1. Install PyInstaller:
+   ```
+   pip install pyinstaller
+   ```
+   If there are any issues after installation, add PyInstaller to the environment path.
+
+2. Running PyInstaller:
+   
